@@ -14,19 +14,21 @@ Prerequisites:
    -  Argo CD
 
 Step 1: Create an EC2 Instance (t2.large)
+
 •	Create a new EC2 instance with type t2.large and select the desired OS.
+
 •	Open necessary ports, such as:
-o	Port 22 for SSH access.
-o	Port 8080 for Jenkins.
-o	Port 9000 for SonarQube (if needed).
+   - Port 22 for SSH access.
+	- Port 8080 for Jenkins.
+	- Port 9000 for SonarQube (if needed).
 
 Step 2: Copy the .pem File to WSL (Optional)
 1.	Copy the PEM file to the WSL:
-cp jenkins.pem ~/.ssh/
-chmod 400 ~/.ssh/jenkins.pem
-ls -l ~/.ssh/jenkins.pem
+    - cp jenkins.pem ~/.ssh/
+    - chmod 400 ~/.ssh/jenkins.pem
+   - ls -l ~/.ssh/jenkins.pem
 2.	SSH into the EC2 instance:
-ssh -i ~/.ssh/jenkins.pem ubuntu@54.221.94.107  # Replace with your EC2 IP
+   - ssh -i ~/.ssh/jenkins.pem ubuntu@54.221.94.107  # Replace with your EC2 IP
 
 Step 3: Install Java and Jenkins
 Install Java
