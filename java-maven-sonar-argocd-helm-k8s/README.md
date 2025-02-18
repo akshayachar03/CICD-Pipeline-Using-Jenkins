@@ -1,6 +1,6 @@
 # Jenkins Pipeline for Java based application using Maven, SonarQube, Argo CD, Helm and Kubernetes
 
-![New Image Pushed to Docker Hub](https://github.com/user-attachments/assets/8e92a2d9-4e2c-4f7e-9d56-9e33d2c5e933)
+![flow](https://github.com/user-attachments/assets/422d7e1c-8ccb-453e-87d9-aa461dc86f67)
 
 
 
