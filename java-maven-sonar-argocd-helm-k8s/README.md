@@ -24,7 +24,7 @@ Ensure you have the following before proceeding:
   - **Port 8080** (Jenkins)
   - **Port 9000** (SonarQube, if installed)
 
-### Step 2: SSH into the EC2 Instance
+### Step 2: Copy the .pem File to WSL (Optional) and SSH into the EC2 Instance 
 ```bash
 cp jenkins.pem ~/.ssh/
 chmod 400 ~/.ssh/jenkins.pem
