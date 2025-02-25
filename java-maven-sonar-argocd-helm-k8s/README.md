@@ -146,7 +146,8 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 - Set the repository URL and deployment path.
 - Deploy and verify:
   ```bash
-  minikube service --url
+  kubectl get svc
+  minikube service service-name
   ```
 
 ---
